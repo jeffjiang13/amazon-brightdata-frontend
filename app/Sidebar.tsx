@@ -15,7 +15,9 @@ function Sidebar() {
   return (
     <div className="p-2 md:p-10 py-6 overflow-y-auto border-b border-indigo-500/50 scrollbar-thin scrollbar-thumb-indigo-600/30 scrollbar-track-gray-100">
       <div className="flex flex-col items-center mb-10">
-        <DocumentMagnifyingGlassIcon className="h-16 md:w-16 text-indigo-600" />
+        {/* <DocumentMagnifyingGlassIcon className="h-16 md:w-16 text-indigo-600" /> */}
+        <img src="/logo.png" className="h-16 md:w-26 text-indigo-600" />
+
         <h1 className="hidden md:inline text-3xl mt-2">Web Scraper</h1>
         <h2 className="hidden md:inline text-xs italic">
           Scraping the unscrapable

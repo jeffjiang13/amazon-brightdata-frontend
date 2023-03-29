@@ -24,7 +24,7 @@ export default async function handler(
     console.log("SEARCH IS >> ", search);
 
     const response = await fetch(
-      "https://api.brightdata.com/dca/trigger?collector=c_leh2wyperkyo5n10s&queue_next=1",
+      "https://api.brightdata.com/dca/trigger?collector=c_lfsiswwq2c0iavf3l3&queue_next=1",
       {
         method: "POST",
         headers: {

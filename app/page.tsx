@@ -5,6 +5,9 @@ function HomePage() {
     <div className="flex flex-col items-center justify-center">
       <div className="flex flex-col items-center mb-10 py-20">
         <DocumentMagnifyingGlassIcon className="h-64 w-64 text-indigo-600/20" />
+        {/* <img src={"/favicon.ico"} className="h-64 w-64 text-indigo-600/20" /> */}
+        <br />
+        <br />
         <h1 className="text-3xl mt-2 text-black font-bold mb-5">
           Welcome to the Amazon Web Scraper
         </h1>
@@ -14,7 +17,10 @@ function HomePage() {
         </h2>
 
         <h3 className="text-lg italic text-black/50">
-          https://jeff-amazon.vercel.app/
+          Also check out my Amazon clone 2.0 at{" "}
+          <a href="https://jeff-amazon.vercel.app/">
+            https://jeff-amazon.vercel.app/
+            </a>
         </h3>
       </div>
     </div>

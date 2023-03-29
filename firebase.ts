@@ -5,12 +5,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD-WeTdyCAbZpFo8WbAgFQhSUK9U9JYUk8",
-  authDomain: "brightdata-build.firebaseapp.com",
-  projectId: "brightdata-build",
-  storageBucket: "brightdata-build.appspot.com",
-  messagingSenderId: "20109006966",
-  appId: "1:20109006966:web:ba7a573ce168acc36fe757",
+  apiKey: "AIzaSyCtGWHpy3_eS5odvZ11IR51uLmTDGb39Uk",
+  authDomain: "brightdata-14145.firebaseapp.com",
+  projectId: "brightdata-14145",
+  storageBucket: "brightdata-14145.appspot.com",
+  messagingSenderId: "795328864130",
+  appId: "1:795328864130:web:6d1ec47af84c06fe9c399b"
 };
 
 // Initialize Firebase

@@ -1,5 +1,7 @@
 import * as admin from "firebase-admin";
 import { getApps } from "firebase-admin/app";
+require('dotenv').config();
+
 // const serviceAccount = require("./serviceAccountKey.json");
 
 const serviceAccount = JSON.parse(
